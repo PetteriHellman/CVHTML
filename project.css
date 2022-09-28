@@ -2,7 +2,7 @@ body {
     background-color: #f2f2f2;
     margin-left: 20px;
     margin-right: 20px;
-
+    position: relative;
 }
 
 @keyframes fadeInAnimation {
@@ -17,6 +17,7 @@ body {
 
 
 h1 {
+    margin-top: 65px;
     border-style: outset;
     font-family: "Trirong", serif;
     opacity: 0;
@@ -25,7 +26,12 @@ h1 {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     
-    
+}
+
+.navFadeIn {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     
 }
 
