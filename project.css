@@ -14,6 +14,8 @@ body {
      }
 }
 
+
+
 h1 {
     border-style: outset;
     font-family: "Trirong", serif;
@@ -31,13 +33,13 @@ h2 {
     font-family: "Trirong", serif;
 }
 
-p { 
+p ul { 
     font-family: "arial" serif;
     color: #404040;
     
 }
 
-#p2 {
+.p2 {
     opacity: 0;
     animation: fadeInAnimation ease 4s;
     animation-iteration-count: 1;
@@ -45,7 +47,7 @@ p {
     animation-delay: 0.5s;
 }
 
-#p3 {
+.p3 {
     opacity: 0;
     animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1;
@@ -53,7 +55,7 @@ p {
     animation-delay: 1s;
 }
 
-#p4 {
+.p4 {
     opacity: 0;
     animation: fadeInAnimation ease 6s;
     animation-iteration-count: 1;
@@ -61,7 +63,7 @@ p {
     animation-delay: 1.5s;
 }
 
-#p5 {
+.p5 {
     opacity: 0;
     animation: fadeInAnimation ease 7s;
     animation-iteration-count: 1;
@@ -69,7 +71,7 @@ p {
     animation-delay: 2s;
 }
 
-#p6 {
+.p6 {
     opacity: 0;
     animation: fadeInAnimation ease 8s;
     animation-iteration-count: 1;
@@ -77,42 +79,10 @@ p {
     animation-delay: 2.5s;
 }
 
-#heading2 {
-    opacity: 0;
-    animation: fadeInAnimation ease 4s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-delay: 0.5s;
+.Red {
+    color: #290a1f
 }
 
-#heading3 {
-    opacity: 0;
-    animation: fadeInAnimation ease 5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-delay: 1s;
-}
-
-#heading4 {
-    opacity: 0;
-    animation: fadeInAnimation ease 6s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-delay: 1.5s;
-}
-
-#heading5 {
-    opacity: 0;
-    animation: fadeInAnimation ease 7s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;
-}
-
-#heading6 {
-    opacity: 0;
-    animation: fadeInAnimation ease 8s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-delay: 2.5s;
+.moveRight {
+    margin-left: 40px;
 }
