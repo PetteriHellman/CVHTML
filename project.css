@@ -48,10 +48,14 @@ h2 {
 
 }
 
-p ul {
+p {
     font-family: "arial", serif;
     color: #404040;
 
+}
+
+ul {
+    font-family: "arial", serif;
 }
 
 .p2 {
@@ -89,6 +93,14 @@ p ul {
 .p6 {
     opacity: 0;
     animation: fadeInAnimation ease 8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+}
+
+.f7 {
+    opacity: 0;
+    animation: fadeInAnimation ease 9s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-delay: 2.5s;
@@ -147,4 +159,21 @@ p ul {
 
 .clear {
     clear: both;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    display: block;
+    background-color: #525151;
+    padding: 20px;
+}
+
+.footerInfo{
+    padding:0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    font-family: "Trirong", serif;
+    font-size: 25px;
 }
