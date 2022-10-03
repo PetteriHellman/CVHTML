@@ -176,7 +176,8 @@ footer {
     float: left;
     display: block;
     background-color: #525151;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .footerInfo {
@@ -192,6 +193,4 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
-    
 }
